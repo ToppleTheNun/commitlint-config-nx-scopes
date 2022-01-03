@@ -5,12 +5,14 @@
 > Lint your nx project commits
 
 Shareable `commitlint` config enforcing nx package and workspace names as scopes.
-Use with [@commitlint/cli](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/cli) and [@commitlint/prompt-cli](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/prompt-cli).
+Use with [@commitlint/cli] and [@commitlint/prompt-cli].
 
 ## Getting started
 
-```
+```shell
 npm install --save-dev commitlint-config-nx-scopes @commitlint/cli
 echo "module.exports = {extends: ['commitlint-config-nx-scopes']};" > commitlint.config.js
 ```
 
+[@commitlint/cli]: https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/cli
+[@commitlint/prompt-cli]: https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/prompt-cli

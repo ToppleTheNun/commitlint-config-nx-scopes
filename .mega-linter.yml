@@ -5,9 +5,9 @@ APPLY_FIXES: all # all, none, or list of linter keys
 DISABLE_LINTERS:
   - JAVASCRIPT_STANDARD
   - TYPESCRIPT_STANDARD
-SHOW_ELAPSED_TIME: true
 FILEIO_REPORTER: false
 PRE_COMMANDS:
   - continue_if_failed: false
     command: yarn install --frozen-lockfile
     cwd: workspace
+SHOW_ELAPSED_TIME: true
