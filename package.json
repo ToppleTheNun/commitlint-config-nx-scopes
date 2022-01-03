@@ -1,0 +1,91 @@
+{
+  "name": "commitlint-config-nx-scopes",
+  "version": "0.0.0-development",
+  "author": "Richard Harrah",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "main": "dist/index.js",
+  "module": "dist/commitlint-config-nx-scopes.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "analyze": "size-limit --why",
+    "build": "dts build",
+    "commit": "commit",
+    "lint": "dts lint",
+    "prepare": "is-ci || husky install && dts build",
+    "size": "size-limit",
+    "start": "dts watch",
+    "test": "dts test"
+  },
+  "peerDependencies": {
+    "@commitlint/types": "^16.0.0",
+    "@nrwl/devkit": "^13.0.0",
+    "@nrwl/tao": "^13.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "16.0.1",
+    "@commitlint/config-conventional": "16.0.0",
+    "@commitlint/prompt-cli": "16.0.0",
+    "@commitlint/types": "16.0.0",
+    "@nrwl/devkit": "13.4.2",
+    "@nrwl/nx-plugin": "13.4.2",
+    "@nrwl/tao": "13.4.2",
+    "@size-limit/preset-small-lib": "7.0.5",
+    "@tsconfig/recommended": "1.0.1",
+    "@types/fs-extra": "9.0.13",
+    "@types/node": "12",
+    "dts-cli": "1.1.4",
+    "fs-extra": "10.0.0",
+    "globby": "12.0.2",
+    "husky": "7.0.4",
+    "import-from": "4.0.0",
+    "is-ci": "3.0.1",
+    "lint-staged": "12.1.4",
+    "prettier": "2.5.1",
+    "prettier-plugin-organize-imports": "2.3.4",
+    "prettier-plugin-pkg": "0.11.1",
+    "resolve-pkg": "2.0.0",
+    "semantic-release": "18.0.1",
+    "semver": "7.3.5",
+    "size-limit": "7.0.5",
+    "tslib": "2.3.1",
+    "typescript": "4.5.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "dts lint"
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "size-limit": [
+    {
+      "path": "dist/commitlint-config-nx-scopes.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/commitlint-config-nx-scopes.esm.js",
+      "limit": "10 KB"
+    }
+  ]
+}
