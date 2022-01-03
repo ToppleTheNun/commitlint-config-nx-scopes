@@ -1,8 +1,0 @@
-Results of v8r linter (version 0.6.1)
-See documentation on https://megalinter.github.io/descriptors/yaml_v8r/
------------------------------------------------
-
-✅ [SUCCESS] .github/workflows/main.yml
-✅ [SUCCESS] .github/workflows/mega-linter.yml
-✅ [SUCCESS] .github/workflows/size.yml
-✅ [SUCCESS] .mega-linter.yml
