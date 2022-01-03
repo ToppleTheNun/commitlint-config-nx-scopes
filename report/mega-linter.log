@@ -1,0 +1,391 @@
+----------------------------------------------------------------------------------------------------
+-------------------------------------------- MegaLinter --------------------------------------------
+----------------------------------------------------------------------------------------------------
+ - Image Creation Date: 2021-12-21T13:27:22Z
+ - Image Revision: 26c3d123
+ - Image Version: v5
+----------------------------------------------------------------------------------------------------
+The MegaLinter documentation can be found at:
+ - https://megalinter.github.io
+----------------------------------------------------------------------------------------------------
+GITHUB_REPOSITORY: ToppleTheNun/commitlint-config-nx-scopes
+GITHUB_REF: refs/pull/3/merge
+GITHUB_RUN_ID: 1647994150
+
+
+[Pre] run: [yarn install --frozen-lockfile] in cwd [/github/workspace]
+[Pre] [yarn install v1.22.10
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@2.3.2: The platform "linux" is incompatible with this module.
+info "fsevents@2.3.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-android-arm64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-android-arm64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-android-arm64@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info esbuild-darwin-64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-darwin-64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-darwin-arm64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-darwin-arm64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-darwin-arm64@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info esbuild-freebsd-64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-freebsd-64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-freebsd-arm64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-freebsd-arm64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-freebsd-arm64@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info esbuild-linux-32@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-32@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-arm@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-arm@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-arm64@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-arm64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-mips64le@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-mips64le@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-ppc64le@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-ppc64le@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-s390x@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-s390x@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-netbsd-64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-netbsd-64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-openbsd-64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-openbsd-64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-sunos-64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-sunos-64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-windows-32@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-windows-32@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-windows-32@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info esbuild-windows-64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-windows-64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-windows-arm64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-windows-arm64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-windows-arm64@0.14.10: The CPU architecture "x64" is incompatible with this module.
+[3/4] Linking dependencies...
+warning "dts-cli > eslint-plugin-flowtype@8.0.3" has unmet peer dependency "@babel/plugin-syntax-flow@^7.14.5".
+warning "dts-cli > eslint-plugin-flowtype@8.0.3" has unmet peer dependency "@babel/plugin-transform-react-jsx@^7.14.9".
+warning "dts-cli > rollup-plugin-typescript2 > @yarn-tool/resolve-package > @ts-type/package-dts > ts-type@2.1.2" has unmet peer dependency "@types/bluebird@*".
+warning "dts-cli > rollup-plugin-typescript2 > @yarn-tool/resolve-package > @ts-type/package-dts > ts-type@2.1.2" has unmet peer dependency "ts-toolbelt@^9.6.0".
+[4/4] Building fresh packages...
+$ is-ci || husky install && dts build
+⠙ Creating entry file
+[2K[1A[2K[G⠙ Building modules
+[2K[1A[2K[G✓ Creating entry file 2.3 secs
+⠹ Building modules
+[2K[1A[2K[G⠸ Building modules
+[2K[1A[2K[G⠼ Building modules
+[2K[1A[2K[G⠴ Building modules
+[2K[1A[2K[G⠦ Building modules
+[2K[1A[2K[G⠧ Building modules
+[2K[1A[2K[G✓ Building modules 5.4 secs
+Done in 38.57s.
+] yarn install v1.22.10
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@2.3.2: The platform "linux" is incompatible with this module.
+info "fsevents@2.3.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-android-arm64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-android-arm64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-android-arm64@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info esbuild-darwin-64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-darwin-64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-darwin-arm64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-darwin-arm64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-darwin-arm64@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info esbuild-freebsd-64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-freebsd-64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-freebsd-arm64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-freebsd-arm64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-freebsd-arm64@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info esbuild-linux-32@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-32@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-arm@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-arm@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-arm64@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-arm64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-mips64le@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-mips64le@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-ppc64le@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-ppc64le@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-s390x@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-s390x@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-netbsd-64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-netbsd-64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-openbsd-64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-openbsd-64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-sunos-64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-sunos-64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-windows-32@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-windows-32@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-windows-32@0.14.10: The CPU architecture "x64" is incompatible with this module.
+info esbuild-windows-64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-windows-64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-windows-arm64@0.14.10: The platform "linux" is incompatible with this module.
+info "esbuild-windows-arm64@0.14.10" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-windows-arm64@0.14.10: The CPU architecture "x64" is incompatible with this module.
+[3/4] Linking dependencies...
+warning "dts-cli > eslint-plugin-flowtype@8.0.3" has unmet peer dependency "@babel/plugin-syntax-flow@^7.14.5".
+warning "dts-cli > eslint-plugin-flowtype@8.0.3" has unmet peer dependency "@babel/plugin-transform-react-jsx@^7.14.9".
+warning "dts-cli > rollup-plugin-typescript2 > @yarn-tool/resolve-package > @ts-type/package-dts > ts-type@2.1.2" has unmet peer dependency "@types/bluebird@*".
+warning "dts-cli > rollup-plugin-typescript2 > @yarn-tool/resolve-package > @ts-type/package-dts > ts-type@2.1.2" has unmet peer dependency "ts-toolbelt@^9.6.0".
+[4/4] Building fresh packages...
+$ is-ci || husky install && dts build
+⠙ Creating entry file
+[2K[1A[2K[G⠙ Building modules
+[2K[1A[2K[G✓ Creating entry file 2.3 secs
+⠹ Building modules
+[2K[1A[2K[G⠸ Building modules
+[2K[1A[2K[G⠼ Building modules
+[2K[1A[2K[G⠴ Building modules
+[2K[1A[2K[G⠦ Building modules
+[2K[1A[2K[G⠧ Building modules
+[2K[1A[2K[G✓ Building modules 5.4 secs
+Done in 38.57s.
+
+[Activation] EDITORCONFIG_EDITORCONFIG_CHECKER has been set inactive, as none of these files has been found: ['.editorconfig']
+[Activation] JAVASCRIPT_ES has been set inactive, as none of these files has been found: ['.eslintrc.json', '.eslintrc.yml', '.eslintrc.yaml', '.eslintrc.js', '.eslintrc.cjs']
+[Activation] JSX_ESLINT has been set inactive, as none of these files has been found: ['.eslintrc.json', '.eslintrc.yml', '.eslintrc.yaml', '.eslintrc.js', '.eslintrc.cjs']
+[Activation] SWIFT_SWIFTLINT has been set inactive, as none of these files has been found: ['.swiftlint.yml']
+[Activation] TSX_ESLINT has been set inactive, as none of these files has been found: ['.eslintrc.json', '.eslintrc.yml', '.eslintrc.yaml', '.eslintrc.js', '.eslintrc.cjs']
+[Activation] TYPESCRIPT_ES has been set inactive, as none of these files has been found: ['.eslintrc.json', '.eslintrc.yml', '.eslintrc.yaml', '.eslintrc.js', '.eslintrc.cjs']
+Skipped linters: ANSIBLE_ANSIBLE_LINT, EDITORCONFIG_EDITORCONFIG_CHECKER, JAVASCRIPT_ES, JAVASCRIPT_PRETTIER, JAVASCRIPT_STANDARD, JSX_ESLINT, KUBERNETES_KUBEVAL, MARKDOWN_REMARK_LINT, SALESFORCE_SFDX_SCANNER_APEX, SALESFORCE_SFDX_SCANNER_AURA, SALESFORCE_SFDX_SCANNER_LWC, SWIFT_SWIFTLINT, TSX_ESLINT, TYPESCRIPT_ES, TYPESCRIPT_PRETTIER, TYPESCRIPT_STANDARD
+To receive reports as email, please set variable EMAIL_REPORTER_EMAIL
+Listing all files in directory [/github/workspace], then filter with:
+- File extensions: , .R, .RMD, .Rmd, .bash, .c, .c++, .cc, .cdxml, .clj, .cljc, .cljs, .coffee, .cpp, .cs, .css, .cu, .cuh, .cxx, .dart, .dash, .edn, .env, .feature, .go, .gradle, .graphql, .groovy, .gvy, .h, .h++, .hcl, .hh, .hpp, .htm, .html, .hxx, .java, .json, .json5, .jsonc, .ksh, .kt, .kts, .lua, .md, .nf, .p6, .php, .pl, .pl6, .pm, .pm6, .pp, .proto, .ps1, .ps1xml, .psd1, .psm1, .psrc, .pssc, .py, .r, .raku, .rakumod, .rakutest, .rb, .rs, .rst, .saas, .scala, .scss, .sh, .smk, .sql, .t, .tex, .tf, .vb, .xml, .yaml, .yml
+- File names (regex): Dockerfile, Jenkinsfile, Snakefile
+- Excluding .gitignored files [32539]: /github/workspace/dist/commitlint-config-nx-scopes.cjs.development.js, /github/workspace/dist/commitlint-config-nx-scopes.cjs.development.js.map, /github/workspace/dist/commitlint-config-nx-scopes.cjs.production.min.js, /github/workspace/dist/commitlint-config-nx-scopes.cjs.production.min.js.map, /github/workspace/dist/commitlint-config-nx-scopes.esm.js, /github/workspace/dist/commitlint-config-nx-scopes.esm.js.map, /github/workspace/dist/index.js, /github/workspace/dist/types/getNxProjects.d.ts, /github/workspace/dist/types/index.d.ts, /github/workspace/node_modules/.bin/JSONStream,...(full list in DEBUG)
+Kept [16] files on [33] found files
+
++----MATCHING LINTERS--------------------+---------------------+----------------+------------+
+| Descriptor  | Linter                   | Criteria            | Matching files | Format/Fix |
++-------------+--------------------------+---------------------+----------------+------------+
+| ACTION      | actionlint               | .yml|.yaml          | 3              | no         |
+| COPYPASTE   | jscpd                    |                     | project        | no         |
+| CREDENTIALS | secretlint               |                     | project        | no         |
+| GIT         | git_diff                 |                     | project        | no         |
+| JSON        | jsonlint                 | .json               | 5              | no         |
+| JSON        | eslint-plugin-jsonc      | .json|.json5|.jsonc | 5              | yes        |
+| JSON        | v8r                      | .json               | 5              | no         |
+| JSON        | prettier                 | .json               | 5              | yes        |
+| MARKDOWN    | markdownlint             | .md                 | 1              | yes        |
+| MARKDOWN    | markdown-link-check      | .md                 | 1              | no         |
+| MARKDOWN    | markdown-table-formatter | .md                 | 1              | yes        |
+| SPELL       | misspell                 |                     | 16             | yes        |
+| SPELL       | cspell                   |                     | 16             | no         |
+| YAML        | prettier                 | .yml|.yaml          | 4              | yes        |
+| YAML        | yamllint                 | .yml|.yaml          | 4              | no         |
+| YAML        | v8r                      | .yml|.yaml          | 4              | no         |
++-------------+--------------------------+---------------------+----------------+------------+
+
+
+[1m### Processed [ACTION] files[0m
+- Using [actionlint v1.6.8] https://megalinter.github.io/v5/descriptors/action_actionlint
+- MegaLinter key: [ACTION_ACTIONLINT]
+- Rules config: identified by [actionlint]
+[actionlint] .github/workflows/main.yml
+[actionlint] .github/workflows/mega-linter.yml
+[actionlint] .github/workflows/size.yml
+[32m✅ Linted [ACTION] files with [actionlint] successfully - (0.03s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-ACTION_ACTIONLINT.log
+
+[1m### Processed [COPYPASTE] files[0m
+- Using [jscpd v3.3.26] https://megalinter.github.io/v5/descriptors/copypaste_jscpd
+- MegaLinter key: [COPYPASTE_JSCPD]
+- Rules config: [/github/workspace/.jscpd.json]
+[32m✅ Linted [COPYPASTE] files with [jscpd] successfully - (0.71s)[0m
+
+[1m### Processed [CREDENTIALS] files[0m
+- Using [secretlint v4.1.0] https://megalinter.github.io/v5/descriptors/credentials_secretlint
+- MegaLinter key: [CREDENTIALS_SECRETLINT]
+- Rules config: [.secretlintrc.json]
+[32m✅ Linted [CREDENTIALS] files with [secretlint] successfully - (0.83s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-COPYPASTE_JSCPD.log
+
+[1m### Processed [GIT] files[0m
+- Using [git_diff v2.30.2] https://megalinter.github.io/v5/descriptors/git_git_diff
+- MegaLinter key: [GIT_GIT_DIFF]
+- Rules config: identified by [git_diff]
+[32m✅ Linted [GIT] files with [git_diff] successfully - (0.01s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-CREDENTIALS_SECRETLINT.log
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-GIT_GIT_DIFF.log
+
+[1m### Processed [MARKDOWN] files[0m
+- Using [markdownlint v0.30.0] https://megalinter.github.io/v5/descriptors/markdown_markdownlint
+- MegaLinter key: [MARKDOWN_MARKDOWNLINT]
+- Rules config: [.markdownlint.json]
+[36m[markdownlint] README.md - FIXED[0m
+[32m✅ Linted [MARKDOWN] files with [markdownlint] successfully - (0.23s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-MARKDOWN_MARKDOWNLINT.log
+
+[1m### Processed [JSON] files[0m
+- Using [jsonlint v1.6.3] https://megalinter.github.io/v5/descriptors/json_jsonlint
+- MegaLinter key: [JSON_JSONLINT]
+- Rules config: identified by [jsonlint]
+[jsonlint] .cspell.json - SUCCESS - 0 error(s)
+[jsonlint] .github/renovate.json - SUCCESS - 0 error(s)
+[jsonlint] .jscpd.json - SUCCESS - 0 error(s)
+[jsonlint] package.json - SUCCESS - 0 error(s)
+[jsonlint] tsconfig.json - SUCCESS - 0 error(s)
+[32m✅ Linted [JSON] files with [jsonlint] successfully - (0.93s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-JSON_JSONLINT.log
+
+[1m### Processed [MARKDOWN] files[0m
+- Using [markdown-link-check v3.9.0] https://megalinter.github.io/v5/descriptors/markdown_markdown_link_check
+- MegaLinter key: [MARKDOWN_MARKDOWN_LINK_CHECK]
+- Rules config: [.markdown-link-check.json]
+[markdown-link-check] README.md - SUCCESS - 0 error(s)
+[32m✅ Linted [MARKDOWN] files with [markdown-link-check] successfully - (0.63s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-MARKDOWN_MARKDOWN_LINK_CHECK.log
+
+[1m### Processed [MARKDOWN] files[0m
+- Using [markdown-table-formatter v1.2.0] https://megalinter.github.io/v5/descriptors/markdown_markdown_table_formatter
+- MegaLinter key: [MARKDOWN_MARKDOWN_TABLE_FORMATTER]
+- Rules config: identified by [markdown-table-formatter]
+[36m[markdown-table-formatter] README.md - FIXED[0m
+[32m✅ Linted [MARKDOWN] files with [markdown-table-formatter] successfully - (0.19s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-MARKDOWN_MARKDOWN_TABLE_FORMATTER.log
+
+[1m### Processed [SPELL] files[0m
+- Using [misspell v0.3.4] https://megalinter.github.io/v5/descriptors/spell_misspell
+- MegaLinter key: [SPELL_MISSPELL]
+- Rules config: identified by [misspell]
+[misspell] .cspell.json
+[misspell] .gitattributes
+[misspell] .github/renovate.json
+[misspell] .github/workflows/main.yml
+[misspell] .github/workflows/mega-linter.yml
+[misspell] .github/workflows/size.yml
+[misspell] .gitignore
+[misspell] .husky/commit-msg
+[misspell] .husky/pre-commit
+[misspell] .husky/pre-push
+[misspell] .jscpd.json
+[misspell] .mega-linter.yml
+[misspell] LICENSE
+[36m[misspell] README.md - FIXED[0m
+[misspell] package.json
+[misspell] tsconfig.json
+[32m✅ Linted [SPELL] files with [misspell] successfully - (0.07s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-SPELL_MISSPELL.log
+
+[1m### Processed [SPELL] files[0m
+- Using [cspell v5.13.4] https://megalinter.github.io/v5/descriptors/spell_cspell
+- MegaLinter key: [SPELL_CSPELL]
+- Rules config: [/github/workspace/.cspell.json]
+[cspell] .cspell.json
+[cspell] .gitattributes
+[cspell] .github/renovate.json
+[cspell] .github/workflows/main.yml
+[cspell] .github/workflows/mega-linter.yml
+[cspell] .github/workflows/size.yml
+[cspell] .gitignore
+[cspell] .husky/commit-msg
+[cspell] .husky/pre-commit
+[cspell] .husky/pre-push
+[cspell] .jscpd.json
+[cspell] .mega-linter.yml
+[cspell] LICENSE
+[cspell] README.md
+[cspell] package.json
+[cspell] tsconfig.json
+[32m✅ Linted [SPELL] files with [cspell] successfully - (1.81s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-SPELL_CSPELL.log
+Unable to get version for linter [eslint-plugin-jsonc]
+/usr/bin/npm list eslint-plugin-jsonc returned output: (1) commitlint-config-nx-scopes@0.0.0-development /github/workspace
+└── (empty)
+
+
+Unable to extract version with regex re.compile('\\d+(\\.\\d+)+') from ERROR
+
+[1m### Processed [JSON] files[0m
+- Using [eslint-plugin-jsonc vERROR] https://megalinter.github.io/v5/descriptors/json_eslint_plugin_jsonc
+- MegaLinter key: [JSON_ESLINT_PLUGIN_JSONC]
+- Rules config: [.eslintrc-json.json]
+[eslint-plugin-jsonc] .cspell.json
+[eslint-plugin-jsonc] .github/renovate.json
+[eslint-plugin-jsonc] .jscpd.json
+[eslint-plugin-jsonc] package.json
+[eslint-plugin-jsonc] tsconfig.json
+[32m✅ Linted [JSON] files with [eslint-plugin-jsonc] successfully - (0.8s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-JSON_ESLINT_PLUGIN_JSONC.log
+
+[1m### Processed [YAML] files[0m
+- Using [prettier v2.5.1] https://megalinter.github.io/v5/descriptors/yaml_prettier
+- MegaLinter key: [YAML_PRETTIER]
+- Rules config: identified by [prettier]
+[36m[prettier] .github/workflows/main.yml - FIXED[0m
+[prettier] .github/workflows/mega-linter.yml
+[prettier] .github/workflows/size.yml
+[prettier] .mega-linter.yml
+[32m✅ Linted [YAML] files with [prettier] successfully - (1.0s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-YAML_PRETTIER.log
+
+[1m### Processed [YAML] files[0m
+- Using [yamllint v1.26.3] https://megalinter.github.io/v5/descriptors/yaml_yamllint
+- MegaLinter key: [YAML_YAMLLINT]
+- Rules config: [.yamllint.yml]
+[yamllint] .github/workflows/main.yml
+[yamllint] .github/workflows/mega-linter.yml
+[yamllint] .github/workflows/size.yml
+[yamllint] .mega-linter.yml
+[32m✅ Linted [YAML] files with [yamllint] successfully - (0.14s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-YAML_YAMLLINT.log
+
+[1m### Processed [JSON] files[0m
+- Using [v8r v0.6.1] https://megalinter.github.io/v5/descriptors/json_v8r
+- MegaLinter key: [JSON_V8R]
+- Rules config: identified by [v8r]
+[v8r] .cspell.json - SUCCESS - 0 error(s)
+[v8r] .github/renovate.json - SUCCESS - 0 error(s)
+[v8r] .jscpd.json - SUCCESS - 0 error(s)
+[v8r] package.json - SUCCESS - 0 error(s)
+[v8r] tsconfig.json - SUCCESS - 0 error(s)
+[32m✅ Linted [JSON] files with [v8r] successfully - (4.71s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-JSON_V8R.log
+
+[1m### Processed [YAML] files[0m
+- Using [v8r v0.6.1] https://megalinter.github.io/v5/descriptors/yaml_v8r
+- MegaLinter key: [YAML_V8R]
+- Rules config: identified by [v8r]
+[v8r] .github/workflows/main.yml - SUCCESS - 0 error(s)
+[v8r] .github/workflows/mega-linter.yml - SUCCESS - 0 error(s)
+[v8r] .github/workflows/size.yml - SUCCESS - 0 error(s)
+[v8r] .mega-linter.yml - SUCCESS - 0 error(s)
+[32m✅ Linted [YAML] files with [v8r] successfully - (3.05s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-YAML_V8R.log
+
+[1m### Processed [JSON] files[0m
+- Using [prettier v2.5.1] https://megalinter.github.io/v5/descriptors/json_prettier
+- MegaLinter key: [JSON_PRETTIER]
+- Rules config: identified by [prettier]
+[prettier] .cspell.json
+[prettier] .github/renovate.json
+[prettier] .jscpd.json
+[prettier] package.json
+[prettier] tsconfig.json
+[32m✅ Linted [JSON] files with [prettier] successfully - (0.92s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-JSON_PRETTIER.log
+
++----SUMMARY-----+--------------------------+---------------+-------+-------+--------+--------------+
+| Descriptor     | Linter                   | Mode          | Files | Fixed | Errors | Elapsed time |
++----------------+--------------------------+---------------+-------+-------+--------+--------------+
+| ✅ ACTION      | actionlint               | list_of_files |     3 |       |      0 |        0.03s |
+| ✅ COPYPASTE   | jscpd                    | project       |   n/a |       |      0 |        0.71s |
+| ✅ CREDENTIALS | secretlint               | project       |   n/a |       |      0 |        0.83s |
+| ✅ GIT         | git_diff                 | project       |   n/a |       |      0 |        0.01s |
+| ✅ JSON        | eslint-plugin-jsonc      | list_of_files |     5 |     0 |      0 |         0.8s |
+| ✅ JSON        | jsonlint                 | file          |     5 |       |      0 |        0.93s |
+| ✅ JSON        | prettier                 | list_of_files |     5 |     0 |      0 |        0.92s |
+| ✅ JSON        | v8r                      | file          |     5 |       |      0 |        4.71s |
+| ✅ MARKDOWN    | markdownlint             | list_of_files |     1 |     1 |      0 |        0.23s |
+| ✅ MARKDOWN    | markdown-link-check      | file          |     1 |       |      0 |        0.63s |
+| ✅ MARKDOWN    | markdown-table-formatter | list_of_files |     1 |     1 |      0 |        0.19s |
+| ✅ SPELL       | cspell                   | list_of_files |    16 |       |      0 |        1.81s |
+| ✅ SPELL       | misspell                 | list_of_files |    16 |     1 |      0 |        0.07s |
+| ✅ YAML        | prettier                 | list_of_files |     4 |     1 |      0 |         1.0s |
+| ✅ YAML        | v8r                      | file          |     4 |       |      0 |        3.05s |
+| ✅ YAML        | yamllint                 | list_of_files |     4 |       |      0 |        0.14s |
++----------------+--------------------------+---------------+-------+-------+--------+--------------+
+
+Identified PR#3 from environment
+[GitHub Comment Reporter] Posted summary as comment on ToppleTheNun/commitlint-config-nx-scopes #PR3
+[Updated Sources Reporter] copied 2 fixed source files in folder /github/workspace/report/updated_sources.
+Download it from artifacts then copy-paste it in your local repo to apply linters updates
+[32m✅ Successfully linted all files without errors[0m
