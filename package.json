@@ -46,7 +46,7 @@
     "husky": "7.0.4",
     "import-from": "4.0.0",
     "is-ci": "3.0.1",
-    "lint-staged": "12.2.1",
+    "lint-staged": "12.2.2",
     "prettier": "2.5.1",
     "prettier-plugin-organize-imports": "2.3.4",
     "prettier-plugin-pkg": "0.11.1",
