@@ -1,7 +1,7 @@
 {
   "extends": ["config:js-lib", ":semanticCommits"],
   "automergeType": "branch",
-  "addLabels": [
+  "labels": [
     "automerge"
   ],
   "lockFileMaintenance": {
