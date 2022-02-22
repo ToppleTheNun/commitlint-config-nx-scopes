@@ -41,7 +41,7 @@
     "@types/fs-extra": "9.0.13",
     "@types/node": "16.11.25",
     "dts-cli": "1.4.0",
-    "fs-extra": "10.0.0",
+    "fs-extra": "10.0.1",
     "globby": "13.1.1",
     "husky": "7.0.4",
     "import-from": "4.0.0",
